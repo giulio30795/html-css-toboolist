@@ -29,6 +29,10 @@ body{
     padding: 5px;
 }
 
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /* Header Section */
 
 header{
@@ -73,6 +77,6 @@ nav{
 
 /* Section */
 
-.section-title{
+.section{
 padding-left: 30px;
 }
