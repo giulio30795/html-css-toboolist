@@ -14,11 +14,25 @@ body{
     background:white;
 }
 
+h3{
+    padding-left: 30px;
+}
+li{
+    margin-top: 20px;
+    margin-bottom: 20px;;
+}
 .check{
     border: 1px solid #B7E5DC;
     border-radius: 50%;
     color: #B7E5DC;
-    padding: 1px;
+    padding: 2px;
+}
+.delete{
+    border: 1px solid #EB5B54;
+    color: #EB5B54;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 8px;
 }
 
 .editorial{
@@ -75,8 +89,40 @@ nav{
     color: grey;
 }
 
-/* Section */
 
-.section{
-padding-left: 30px;
+/* row */
+.goals{
+    color: white;
+    font-size: 12px;
+    border-radius: 20%;
+    padding: 5px;
+    background: #9C72E4
+}
+.recruiting{
+    color: white;
+    font-size: 12px;
+    border-radius: 20%;
+    padding: 5px;
+    background: #64c0a9;
+}
+.mobile{
+    color: white;
+    font-size: 12px;
+    border-radius: 20%;
+    padding: 5px;
+    background: #F29E33
+}
+.website{
+    color: white;
+    font-size: 12px;
+    border-radius: 20%;
+    padding: 5px;
+    background-color: #D863A1;
+}
+.sales{
+    color: white;
+    font-size: 12px;
+    border-radius: 20%;
+    padding: 5px;
+    background:#B0C926;
 }
