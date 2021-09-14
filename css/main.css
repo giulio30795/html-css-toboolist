@@ -13,9 +13,12 @@ body{
 .white{
     background:white;
 }
-
+#first-title{
+    margin-top: 2px;;
+}
 h3{
     padding-left: 30px;
+    padding-top: 15px;
 }
 li{
     margin-top: 20px;
