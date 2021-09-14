@@ -1,9 +1,18 @@
 body{
   box-sizing: border-box;
   margin: 0;
-  background: lightgrey;
+  background: #F6F8F9;
   font-family: sans-serif;
 }
+
+/* Commmons */
+.lightblue{
+    background-color: #44ABEA;
+}
+.white{
+    background:white;
+}
+
 /* Header Section */
 
 header{
@@ -14,4 +23,32 @@ header{
 
 .logo{
     vertical-align: middle;
+}
+
+/* Main Section */
+main{
+    width: 60%;
+    margin: auto;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 30px;
+}
+nav{
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+.add-task {
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 14px;
+    color: #fff;
+}
+
+.add-section{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 14px;
+    color: grey;
 }
