@@ -9,8 +9,24 @@ body{
 .lightblue{
     background-color: #44ABEA;
 }
+
 .white{
     background:white;
+}
+
+.check{
+    border: 1px solid #B7E5DC;
+    border-radius: 50%;
+    color: #B7E5DC;
+    padding: 1px;
+}
+
+.editorial{
+    background-color: #44ABEA;
+    color: white;
+    font-size: 12px;
+    border-radius: 20%;
+    padding: 5px;
 }
 
 /* Header Section */
@@ -25,17 +41,19 @@ header{
     vertical-align: middle;
 }
 
-/* Main Section */
+/* Main Section  */
 main{
-    width: 60%;
+    width: 50%;
     margin: auto;
-    height: 100px;
-    line-height: 100px;
-    margin-top: 30px;
 }
+
 nav{
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
+    margin: auto;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 30px;
 }
 .add-task {
     margin-left: 30px;
@@ -51,4 +69,10 @@ nav{
     border-radius: 10%;
     font-size: 14px;
     color: grey;
+}
+
+/* Section */
+
+.section-title{
+padding-left: 30px;
 }
