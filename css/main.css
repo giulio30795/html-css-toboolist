@@ -24,10 +24,9 @@ h3{
 }
 
 li{
-    margin-top: 20px;
-    margin-bottom: 20px;
+
     list-style: none;
-    padding-left: 30px;
+    padding: 10px 30px;
     ft: 30px;
 }
 
@@ -43,16 +42,25 @@ ul{
     border: 1px solid #B7E5DC;
     border-radius: 50%;
     color: #B7E5DC;
-    padding: 2px;
     margin-right: 5px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 10px;
 }
 .delete{
     border: 1px solid #EB5B54;
     color: #EB5B54;
     border-radius: 50%;
-    padding: 5px;
-    font-size: 8px;
+    font-size: 7px;
     margin-right: 5px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    line-height: 16px;
 }
 
 .editorial{
